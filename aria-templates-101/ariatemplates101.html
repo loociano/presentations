@@ -14,11 +14,12 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="reveal.js/css/reveal.min.css">
-		<link rel="stylesheet" href="reveal.js/css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="../reveal.js/css/reveal.min.css">
+		<!-- Theme -->
+		<link rel="stylesheet" href="css/theme.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+		<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -33,16 +34,18 @@
 			<div class="slides">
 				<section>
 					<h1>Aria Templates 101</h1>
-					<p>
-						<small><a href="loociano.github.io">Luciano Rubio</a></small>
-					</p>
+					<p>An introductory training presented by <a href="loociano.github.io">Luciano Rubio</a></p>
 				</section>
 
 				<section>
 					<h2>Who am I?</h2>
-					<p>
-						<small><a href="loociano.github.io">Luciano Rubio</a></small>
-					</p>
+					<img class="myself" src="img/luciano.png"/>
+					<ul>
+						<li>Luciano Rubio</li>
+						<li class="fragment">Software Engineer</li>
+						<li class="fragment">Joined Amadeus 3 years ago</li>
+						<li class="fragment">Loves coding and graphic design</li>
+					</ul>
 				</section>
 
 				<section>
@@ -130,8 +133,8 @@
 
 		</div>
 
-		<script src="reveal.js/lib/js/head.min.js"></script>
-		<script src="reveal.js/js/reveal.min.js"></script>
+		<script src="../reveal.js/lib/js/head.min.js"></script>
+		<script src="../reveal.js/js/reveal.min.js"></script>
 
 		<script>
 
@@ -147,14 +150,12 @@
 				transition: 'linear',
 				backgroundTransition: 'slide',
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 				]
 			});
 
