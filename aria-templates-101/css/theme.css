@@ -43,15 +43,15 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #002D5F;
-  background-color: #002D5F; }
+  background-color: #EDEDED; }
 
 .reveal {
   font-family: "robotoregular", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #D1DDEA; }
+  color: #535B62; 
+}
 
 ::selection {
   color: white;
@@ -68,7 +68,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 30px 0;
-  color: #eee8d5;
+  color: #454545;
   font-family: "roboto_condensedregular", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -141,6 +141,7 @@ body {
   border: 0;
   background: none;
   float: left;
+  box-shadow: none;
  }
 
  .reveal .logo {
